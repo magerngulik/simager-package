@@ -4,9 +4,23 @@ Hai semua nya, ini merupakan package yang merupakan kumpulan dari reusable widge
 # Fiture
 ini aja yang baru tersedia
 - dialog error dan success
-ini hanya costume card pastika di tempatkan di return alert dialog ya
+<br>
+ini hanya costume card pastikan di tempatkan di return alert dialog ya
 ```dart
  dialogSuccess(context, "Data berhasil di submit");
  dialogError(context, "Data Gagal di submit");
 ```
 
+# Cara pakai
+jika anda menggunakan local dan tidak mau menggunakan github cara nya seperti berikut:
+<br>
+- pada pubspec.yaml di bagian depedecies tambahkan kode berikut, _pastikan nama nya folder dan napa path nya sama_
+```dart
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  simager:
+    path: ../simager
+
+```
