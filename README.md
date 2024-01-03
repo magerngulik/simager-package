@@ -15,12 +15,19 @@ ini hanya costume card pastikan di tempatkan di return alert dialog ya
 jika anda menggunakan local dan tidak mau menggunakan github cara nya seperti berikut:
 <br>
 - pada pubspec.yaml di bagian depedecies tambahkan kode berikut, _pastikan nama nya folder dan napa path nya sama_
-```dart
+```yaml
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
   simager:
     path: ../simager
-
+```
+- jika menggunakan github cara nya seperti ini
+```yaml
+dependencies:
+  simager_plugin:
+    git:
+      url: https://github.com/magerngulik/simager-package
+      ref: main
 ```
