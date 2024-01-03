@@ -26,7 +26,7 @@ dependencies:
 - jika menggunakan github cara nya seperti ini
 ```yaml
 dependencies:
-  simager_plugin:
+  simager:
     git:
       url: https://github.com/magerngulik/simager-package
       ref: main
