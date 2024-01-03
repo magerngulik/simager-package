@@ -31,3 +31,38 @@ dependencies:
       url: https://github.com/magerngulik/simager-package
       ref: main
 ```
+
+# Fiture yang tersedia
+- service logger
+  - log error
+  - log info
+  - log warning
+  - log debug
+  - log verbose
+  - log wtf
+
+- dialog
+  - success
+  - error
+  - warning
+  - confirm warning
+  - confirm error
+  - confirm logout
+  - ratting number
+  - ratting star
+
+## Penjelasan Fiture
+### Service Logger
+service logger ini di buat karna setiap kali mengerjakan project sering kali melakukan import kelas logger() di berbagai line dan kode menjadi kurang rapi, biasa nya ketika mengerjakan project akan di masukan ke dalam sebuah kelas service, teman teman di sarkan kan untuk menggunakan [logger](https://pub.dev/packages/logger) untuk update terbaru, untuk penggunaan nya kelas yang di masukan dynamic jadi lebih fleksibel, berikut ini merupakan cara penggunaan nya:
+```dart
+SMLog.w("Data Warning");
+SMLog.e(
+  {"message": "data error",
+   "kode" : 404 });
+SMLog.i("Data Info");
+SMLog.d("Data debug");
+SMLog.wtf("Data Wtf");
+SMLog.v("Data verbose");
+
+
+```
